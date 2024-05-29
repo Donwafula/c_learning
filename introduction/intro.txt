@@ -1,0 +1,96 @@
+******STRUCTURE OF A C PROGRAM******
+
+1. Documentation section; comments e.g Author, date, brief description of program
+2. Link section; include header files
+3. Definition section; defines symbolic constants
+		e.g #define PI 3.14159
+4. Global declaration section; user defined functions, global variables
+5. Main section; main function, only 1
+6. Sub program section; all user defined functions
+
+e.g hello.c file
+
+
+
+******EXECUTION PROCESS IN C******
+
+1. Source code; .c file
+2. Preprocessor; replaces header files with the functions in the library.
+		Expands lines starting with # with the functions in the files included.
+		Produces expanded source code, preprocessed file (.i extension)
+		command: gcc -E -o hello.i hello.c
+
+3. Compiler; compiles prog. generates compiled object file (.o extension)
+		command: gcc -c -o hello.o hello.c
+
+4. Assembler; generates assembly file (.s extension)
+		command: gcc -S -o hello.s hello.c
+
+5. Linker; links object file to system libraries with definitions of predefined functions
+		Executable file generated (.exe)
+		Run without -c, -E, -S flags
+		command: gcc -o hello hello.c
+
+6. Loader; loads .exe file to RAM
+7. Execution
+
+
+
+******CONSTANTS IN C******
+
+Numeric constants: integers, floats
+Character constants: single chars(use ''), strings (use "")
+Ints; 1. decimals - 0-9, base 10
+			2. octal - 0-7, base 8
+			3. Hexadecimal - 0-15, base 16.
+Octal constants start with '0'; e.g. 05
+Hexadecimal constants start with '0X' or '0x'; e.g. 0X7F
+	use 0-9 and A-F(represents 10-15).
+
+To declare constants, use 'const' key word.
+	e.g. const int a = 10;
+						OR
+			#define A 10
+	cannot be changed after declaration; error message
+
+
+
+******VARIABLES******
+
+var_type var_name;
+var_types: int, char, float
+e.g. int a;
+
+
+
+******DATA TYPES******
+
+1. Primary: int, float, double, char, void
+2. Derived: array, pointer, structure, union
+3. User defined: enum, typedef
+
+
+------typedef------
+Allows to customize data types
+e.g. 	typedef int my_int;
+			my_int a = 2; (same as int a = 2)
+
+
+------int------
+int; %d
+long int; %ld
+signed int; %d
+unsigned long int; %lu (only +ve)
+%d
+
+
+------char------
+signed; -128 to 127
+unsigned; 0 - 255
+%c
+
+
+------float------
+4 bytes; %f
+double; 8 bytes; %lf
+long double; 10 bytes %Lf
