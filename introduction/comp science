@@ -1,0 +1,304 @@
+*********UON**********
+COURSE OUTLINE  
+ 
+Year of Study I (Compulsory Units)  
+ 
+Semester 1  
+ 
+CSC111 Introduction to Computer Systems
+
+ CSC112 Introduction to Programming
+
+ CSC113 Discrete Mathematics
+
+ CSC115 Programming Lab  
+
+CSC126 Physics for Computing Systems
+
+ CCS001 Communication Skills
+
+ CCS009 Elements of Economics 
+
+Semester 2  
+ 
+CSC122 Database Systems  
+
+CSC123 Data Communications
+
+ CSC125 Linear Algebra  
+
+CSC127 Object Oriented Programming
+
+ CSC211 Data Structures and Algorithms
+
+ CSC214 Digital Electronics  
+
+CCS010 HIV/AIDS  
+ 
+Year of Study II (Compulsory Units)  
+ 
+Semester 1  
+ 
+CSC114 Differential and Integral Calculus
+
+ CSC212 Systems Analysis and Design
+
+ CSC213 Computer Architecture
+
+ CSC217 Knowledge-based Systems & Programming  
+
+CSC223 Operating Systems  
+
+CSC224 Software Engineering
+
+ CSC225 Computer Networks  
+ 
+Semester 2  
+ 
+CSC124 Probability and Statistics
+
+ CSC216 Assembly Language Programming
+
+ CSC222 Automata Theory
+
+ CSC227 Programming Project  
+
+CSC228 Web and Services Programming  
+
+CSC229 Machine Learning Algorithms & Programming  
+
+CSC313 Foundations of Human Computer Interaction  
+ 
+Year of Study III (Compulsory Units)  
+ 
+Semester 1  
+ 
+CSC311 Analysis and Design of Algorithms
+
+ CSC314 Computer Graphics  
+
+CSC315 Distributed Systems
+
+ CSC316 Intro to Organizations and Management  
+
+CSC317 Artificial Intelligence Applications
+
+ CSC318 Network Design Implementation and Management
+
+ CSC319 Innovation & Entrepreneurship 
+
+Year of Study III (Compulsory Units)  
+ 
+Semester 2  
+ 
+CSC321 ICT Project Management
+
+ CSC322 Network and Distributed Programming  
+
+CSC326 Compiler Construction
+
+ CSC327 Embedded Systems & Mobile Programming  
+
+CSC328 Business Intelligence & Analytics  
+
+CSC411 Computer Network Security  
+ 
+After Third Year of Study and Before Fourth Year  
+ 
+CSC311 Industrial Attachment  
+ 
+Year of Study IV (Compulsory Units)  
+    
+ 
+Semester 1  
+ 
+CSC414 ICTs and Society  
+
+CSC417 Information Systems and Organizations
+
+ CSC418 Emerging Technologies Bootcamps
+
+ CSC451 Distributed Databases  
+
+CSC481 Computer Games Programming
+
+ CSC416 Computer Systems Project  
+ 
+Semester 2  
+ 
+CSC416 Computer Systems Project  
+
+CSC434 Cloud Computing and Services
+
+ CSC452 Information Systems Control Audit  
+
+CSC455 Information for Emerging Online Solutions 
+
+
+*********MASENO***********
+COURSE DISTRIBUTION
+
+Year 1	 	 	 
+ 	Semester 1	Semester II
+CCS101	Fundamentals of Computing	CCS 102	Linear Algebra                       
+CCS103	Discrete Structures I	CCS 104	Object Oriented programming 
+CCS105	Electrical Principles	CCS 106	Discrete Structures II
+CCS107	Electronics	CCS 108	Digital Electronics 1              
+CCS 109	Basic Calculus	CCS 110	Introduction to Internet Technologies
+CCS111	Introduction to Programming 	CCS 112	Databases Systems
+CCS113    	Programming in C                  	CCS 114 	 Introduction to Spreadsheets 
+AEN 105	Communication Skills	PHT 112	HIV/AIDS
+
+Year 2	 	 	 
+ 	Semester I	 	Semester II
+CCS 201	Object Oriented Programming II (Java) 	CCS 202	Computer Organization and architecture 
+CCS203	Data Structures and Algorithms	CCS 204	Assembly Language Programming
+CCS 205	Probability and Statistics	CCS 206	Application Development for the Internet
+CCS 207	Digital Electronics II	CCS 208	Data Communications
+CCS 209	Principles of Operating Systems	CCS 210	Automata Theory
+CCS 211	Digital and Analogue Communication Systems	CCS 212	Web Design and Publishing
+CCS 213	Systems Analysis and Design 	CCS 214	Group Project
+ 	 	CCS 216	Visual Basic Programming 
+Year 3	 	 	 
+ 	Semester I	 	Semester II
+CCS 301	Principles of programming languages	CCS 302	Human Computer Interaction
+CCS 303	Design and Analysis of algorithms	CCS 304	Project II 
+CCS305	Intro. to Compiler Construction and Design	CCS 306	Software Engineering
+CCS 307	Computer Networks	CCS 308	Research Methods and Technical Writing 
+CCS 309	Information Systems Security and Design	CCS 310	Computer Graphics
+CCS 313  	Unix Operating Systems      	CSC 312	Mobile Computing
+CCS 315	Intelligent Systems	CCS 314	Computer Networks Lab II (CISCO II)
+CCS 317	Computer Networks Lab I (CISCO)	CCS 316	Network Administration
+CCS 319	Database Administration	CCS 318	Introduction to Expert Systems
+CCS 323	Group Project	 	 
+Year 4	 	 	 
+ 	Semester I	 	Semester II
+CCS 401	Software Project Management	CCS 404	Social Legal and ethical issues in Computing
+CCS 403	Computer Science Project I	CCS 406	Computer Science Project II
+CCS 405	Management Information Systems	CCS 408   	Computer Networks Lab IV (CISCO IV)
+CCS 407	Distributed Systems	CCS 412	Natural Language Processing
+CCS 409	Computer Networks Lab III (CISCO III)	CCS 414	Pattern Recognition
+CCS 415	Data Mining	CCS 418	Advanced Database Systems
+CCS 417	Principles of Functional Programming	 	 
+CCS 419	Advanced Computer Architectures	CCS 422	Advanced Compiler Construction and Design
+CCS 421	Intelligent Agents	ABS 424              Entrepreneurship and S B Mngmt
+CCS 420	Neural Networks	 
+
+
+ertainly! Here's a structured approach to learning discrete mathematics for computer science, along with recommended textbooks and resources for each topic:
+
+1. Foundations of Discrete Mathematics
+Topics:
+
+Logic and Proofs
+Sets and Functions
+Algorithms
+Mathematical Induction
+Recommended Textbook:
+
+"Discrete Mathematics and Its Applications" by Kenneth H. Rosen
+Chapters 1-4 cover these foundational topics comprehensively.
+2. Counting Principles
+Topics:
+
+Basic Counting Techniques
+Permutations and Combinations
+Binomial Theorem
+Pigeonhole Principle
+Inclusion-Exclusion Principle
+Recommended Textbook:
+
+"Discrete Mathematics and Its Applications" by Kenneth H. Rosen
+Chapters 5-6 focus on these counting principles.
+3. Graph Theory
+Topics:
+
+Graphs and Their Properties
+Euler and Hamiltonian Paths
+Graph Coloring
+Trees
+Planar Graphs
+Recommended Textbook:
+
+"Introduction to Graph Theory" by Douglas B. West
+This book offers an in-depth exploration of graph theory.
+4. Relations and Digraphs
+Topics:
+
+Relations and Their Properties
+Equivalence Relations and Partitions
+Partial Orderings
+Directed Graphs (Digraphs)
+Recommended Textbook:
+
+"Discrete Mathematics with Applications" by Susanna S. Epp
+Chapters on relations and digraphs provide a solid understanding.
+5. Number Theory and Cryptography
+Topics:
+
+Divisibility and Primes
+Modular Arithmetic
+GCD and LCM
+Public Key Cryptography (RSA)
+Recommended Textbook:
+
+"A Computational Introduction to Number Theory and Algebra" by Victor Shoup
+This book is particularly useful for understanding the computational aspects of number theory and cryptography.
+6. Boolean Algebra and Computer Logic
+Topics:
+
+Boolean Functions and Expressions
+Logic Gates and Circuits
+Karnaugh Maps
+Simplification of Boolean Functions
+Recommended Textbook:
+
+"Discrete Mathematics and Its Applications" by Kenneth H. Rosen
+Chapter 12 covers Boolean algebra and computer logic.
+7. Combinatorics
+Topics:
+
+Advanced Counting Techniques
+Generating Functions
+Recurrence Relations
+Recommended Textbook:
+
+"Concrete Mathematics: A Foundation for Computer Science" by Ronald L. Graham, Donald E. Knuth, and Oren Patashnik
+This book is excellent for deepening your understanding of combinatorics.
+8. Recurrence Relations
+Topics:
+
+Solving Linear Recurrence Relations
+Homogeneous and Non-homogeneous Recurrence Relations
+Applications to Algorithm Analysis
+Recommended Textbook:
+
+"Discrete Mathematics and Its Applications" by Kenneth H. Rosen
+Chapter 7 deals with recurrence relations and their applications.
+9. Algorithms and Complexity
+Topics:
+
+Big-O Notation
+Time Complexity of Algorithms
+Basic Algorithm Design Techniques (Greedy, Divide and Conquer, Dynamic Programming)
+Recommended Textbook:
+
+"Introduction to Algorithms" by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein
+This is a comprehensive textbook on algorithms and complexity.
+Study Tips:
+Structured Learning: Follow the chapters in the recommended textbooks sequentially.
+Practice Problems: Work on exercises and problems at the end of each chapter to reinforce your understanding.
+Online Courses: Supplement your learning with online courses from platforms like Coursera, edX, and Khan Academy.
+Discussion Forums: Participate in forums such as Stack Overflow and Reddit to ask questions and discuss problems.
+Group Study: If possible, form a study group to discuss concepts and solve problems together.
+Regular Review: Periodically review previously covered material to ensure retention and understanding.
+By following this structured approach and utilizing the recommended resources, you'll be well-equipped to master discrete mathematics for computer science.
+
+
+
+
+
+
+
+
+
