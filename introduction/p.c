@@ -1,31 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-void card();
+
 int evaluate();
 int _atoi(char *n);
-
+int count(int n);
 
 /**
  * main program
  */
 int main(){
-	//card();
+	int n = 0;
 	printf("%i\n", _atoi("My - - - n334 66 -7 umber 434 we win"));
-	evaluate();
+	n = count(n);
+	printf("%d\n", n);
 	return 0;
 }
 
-/**
- * Function to print a string 10 times
- */
-void card(){
-	int c = 10;
-	while (c > 0) {
-		printf("I must not write code in class %d\n", c);
-		c = c - 1;
-	}
-}
 
 /**
  * Function to evaluate face values
@@ -36,15 +27,39 @@ int evaluate(){
 
 	puts("Enter the card_name");
 	scanf("%2s", card_name);
-	if (card_name[0] == 'K' || card_name[0] == 'Q' || card_name[0] == 'Q')
-		val = 10;
-	else if (card_name[0] == 'A')
-		val = 11;
-	else
-		val = _atoi(card_name);
+	switch (card_name[0])
+	{
+		case 'K':
+		case 'Q':
+		case 'j':
+			val = 10;
+			break;
+		case 'A':
+			val = 11;
+			break;
+		default:
+			val = _atoi(card_name);
+	}
 
 	printf("The card value is: %i\n", val);
-	return 0;
+	return (val);
+}
+
+int count(int n)
+{
+	int count = 0;
+
+	n = evaluate();
+	if (n > 2 && n < 7){
+		count++;
+		puts("Count has gone up");
+	}
+	else{
+		count--;
+		puts("Count has gone down");
+	}
+
+	return (count);
 }
 
 /**
