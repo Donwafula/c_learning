@@ -1,4 +1,5 @@
 /*A program to count cards in the blackjack game*/
+/*VARIABLES LOOPS CONDITIONAL STATEMENTS*/
 /*By keeping a running count as the cards are dealt, a player can work out*/
 /*the best time to place large bets and the best time to place small bets*/
 /*Low cards: 2, 3, 4, 5, 6. Are good for the dealer*/
