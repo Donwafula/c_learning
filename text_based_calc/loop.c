@@ -10,31 +10,38 @@ void loop(void)
 
 	while (c != 'q')
 	{
-		printf("Enter an operation (+, -, *, /, %%, ^) or q to quit: ");
+		interface();
 		scanf(" %c", &c);
 		if (c == 'q')
 		{
 			printf("Exiting the calculator. Goodbye!\n");
 			continue;
 		}
-		if (c != '+' && c != '-' && c != '*' && c != '/' && c != '%' && c != '^')
+		else if (c == '+' || c == '-' || c == '*' || c == 'r' || c == 'l')
 		{
-			printf("'%c': Error: Invalid. Enter a valid operation\n", c);
-			while (getchar() != '\n')/*Clear the input buffer*/
-				;
+			if (c == 'r' || c == 'l')
+			{
+				rootLog(c);
+				continue;
+			}
+			else
+			{
+				printf("Enter two operands separated by a space: ");
+				scanf("%d %d", &a, &b);
+				swi_tch(a, b, c);
+			}
+		}
+		else if (c == '/' || c == '%' || c == '^')
+		{
+			printf("Enter two operands separated by a space: ");
+			scanf("%d %d", &a, &b);
+			swi_tch(a, b, c);
+		}
+		else/*(c!='+' && c!='-' && c!='*' && c!='/' && c!='%' && c!='^')*/
+		{
+			printf("'%c':/ Error: Invalid. Enter a valid operation\n\n", c);
 			continue;
 		}
-
-		printf("Enter two operands separated by a space: ");
-		if (scanf("%d %d", &a, &b) != 2)
-		{
-			printf("Invalid input. Please enter two integers.\n");
-			while (getchar() != '\n')
-				;
-			continue;
-		}
-
-		swi_tch(a, b, c);
 	}
 }
 
@@ -84,7 +91,7 @@ void swi_tch(int a, int b, char c)
 			return;
 	}
 
-	printf("Result: %d\n", result);
+	printf("Result: %d\n\n", result);
 }
 
 /**
