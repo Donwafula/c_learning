@@ -37,7 +37,7 @@ void get_marks(struct Student *student);
 void average(struct Student *student);
 void grade(struct Student *student);
 void display(struct Student *student);
-int prompt(int choice);
+int prompt(struct Student *student, int choice);
 void loop(struct Student *student);
 
 /*Functions for memory access and free*/

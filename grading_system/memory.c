@@ -1,5 +1,10 @@
 #include "grades.h"
 
+/**
+ * initialize_student - Function to initialize struct Student parameters
+ *											a requirement to prevent valgrind warnings
+ * @student: struct array
+ */
 void initialize_student(struct Student *student)
 {
 	student->name = NULL;
@@ -7,7 +12,7 @@ void initialize_student(struct Student *student)
 	student->num_subjects = 0;
 	student->subjects = NULL;
 	student->marks = NULL;
-	student->average = 0.0;
+	student->average = -1.0;
 	student->grade = '\0';
 }
 

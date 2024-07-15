@@ -36,8 +36,6 @@ void s_name(struct Student *student)
 	get_subjects(student);
 	get_marks(student);
 	printf("\nStudent data captured successfully.\n\n");
-	//printf("Student name: %s\nStudent ID: %d\n", student->name, student->id);
-	//print_subs(student);
 }
 
 /**

@@ -10,13 +10,13 @@ void average(struct Student *student)
 {
 	int i = 0, result = 0;
 
-	if (student->name != NULL && student->num_subjects != 0)
+	if (student->name != NULL && student->num_subjects > 0)
 	{
 		for (i = 0; i < student->num_subjects; i++)
 			result += student->marks[i];
 
 		student->average = (float)result / student->num_subjects;
-		printf("\nSUCCESS!\n\n");
+		printf("\nAVERAGE: SUCCESS!\n\n");
 	}
 	else
 	{
@@ -46,7 +46,7 @@ void grade(struct Student *student)
 		else
 			student->grade = 'F';
 
-		printf("\nSUCCESS!\n\n");
+		printf("\nGRADE: SUCCESS!\n\n");
 	}
 	else
 	{
@@ -63,7 +63,12 @@ void display(struct Student *student)
 {
 	int i = 0;
 
-	if (student->name != NULL && student->average >= 0)
+	if (student->average < 0)
+		average(student);
+	if (student->grade == '\0')
+		grade(student);
+
+	if (student->name != NULL)
 	{
 		printf("\nStudent name: %s\nStudent ID: %d\n", student->name, student->id);
 		for (i == 0; i < student->num_subjects != '\0'; i++)
@@ -75,7 +80,6 @@ void display(struct Student *student)
 	else
 	{
 		printf("Student data missing and should be entered first\n");
-		s_name(student);
 	}
 }
 
